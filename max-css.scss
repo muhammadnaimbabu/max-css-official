@@ -9,6 +9,10 @@ body {
   box-sizing: border-box;
 }
 
+@import "partials/fonts";
+
 h1 {
-  color: red;
+  font-size: calc(1.5rem + 3vw);
+  font-family: $montserrat;
+  font-weight: 00;
 }
